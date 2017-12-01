@@ -1,28 +1,15 @@
-C:/Users/ThinkPad/Desktop/floatadder/fpadder2.sv {0 {vlog -work work -vopt -sv -stats=none {C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv}
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module fpadder
-** Error (suppressible): (vlog-12003) C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(144): Variable 'ey' written by continuous and procedural assignments. See C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(30). 
-
-** Error (suppressible): (vlog-12003) C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(146): Variable 'my' written by continuous and procedural assignments. See C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(31). 
-
-** Error (suppressible): (vlog-12003) C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(158): Variable 'ex' written by continuous and procedural assignments. See C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(33). 
-
-** Error (suppressible): (vlog-12003) C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(159): Variable 'mx' written by continuous and procedural assignments. See C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(34). 
-
-** Warning: C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(118): (vlog-2182) 'mx[0]' might be read before written in always_comb or always @* block.
-
-** Warning: C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(113): (vlog-2182) 'my[0]' might be read before written in always_comb or always @* block.
-
-** Warning: C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(118): (vlog-2182) 'ex' might be read before written in always_comb or always @* block.
-
-** Warning: C:\Users\ThinkPad\Desktop\floatadder\fpadder2.sv(113): (vlog-2182) 'ey' might be read before written in always_comb or always @* block.
-
-
-} {} {}} C:/Users/ThinkPad/Desktop/tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ThinkPad/Desktop/tb.sv
+C:/Users/ThinkPad/Desktop/tb.sv {1 {vlog -work work -vopt -sv -stats=none {C:\Users\ThinkPad\Desktop\tb.sv}
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module tb_adder
 
 Top level modules:
 	tb_adder
+
+} {} {}} C:/Users/ThinkPad/Desktop/floatadder/fpadder.sv {1 {vlog -work work -vopt -sv -stats=none {C:\Users\ThinkPad\Desktop\floatadder\fpadder.sv}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fpadder
+
+Top level modules:
+	fpadder
 
 } {} {}}
